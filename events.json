@@ -1,0 +1,71 @@
+{
+  "updatedAt": "2026-10-21T00:00:00+11:00",
+  "events": [
+    {
+      "date": "2026-10-25",
+      "endDate": null,
+      "sport": "AFLW · Round 11",
+      "title": "Sydney Swans v West Coast Eagles",
+      "venue": "Henson Park, Marrickville",
+      "time": "12:35pm",
+      "who": ["kids"],
+      "how": "Kids typically get free general admission at Henson Park AFLW games.",
+      "flag": "Swans haven’t published kids’ pricing for this one. Check Ticketmaster.",
+      "src": "https://www.austadiums.com/sport/event/34457",
+      "srcName": "Austadiums"
+    },
+    {
+      "date": "2026-11-08",
+      "endDate": null,
+      "sport": "WBBL|12 · Summer Session",
+      "title": "Sydney Sixers v Sydney Thunder",
+      "venue": "North Sydney Oval",
+      "time": "1:40pm",
+      "who": ["kids", "members"],
+      "how": "Under-16s free and Sixers and Thunder members are admitted free.",
+      "flag": "Kids-free policy carried over from last season.",
+      "src": "https://northsydneysun.com.au/?p=4740",
+      "srcName": "North Sydney Sun"
+    },
+    {
+      "date": "2026-11-11",
+      "endDate": "2026-11-14",
+      "sport": "Sheffield Shield · Round 4",
+      "title": "NSW v South Australia",
+      "venue": "Cricket Central, Sydney Olympic Park",
+      "time": "10:30am daily",
+      "who": ["everyone"],
+      "how": "Free for everyone, no ticket needed.",
+      "flag": "Confirmed for the 2026-27 season.",
+      "src": "https://www.cricketnsw.com.au/news/4532211/nsw-blues-2026-27-schedule-confirmed",
+      "srcName": "Cricket NSW"
+    },
+    {
+      "date": "2026-11-22",
+      "endDate": "2026-11-25",
+      "sport": "Sheffield Shield · Round 5",
+      "title": "NSW v Queensland",
+      "venue": "SCG, Moore Park",
+      "time": "10:30am daily",
+      "who": ["everyone"],
+      "how": "Free for everyone, no ticket needed. Enter at Gate A.",
+      "flag": "Confirmed for the 2026-27 season.",
+      "src": "https://www.cricket.com.au/news/4586685/sheffield-shield-2026-27-season-preview-guide-broadcast-how-to-watch-details-news-squads-nsw-victoria-wa-sa-queensland-tasmania",
+      "srcName": "cricket.com.au"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Club rugby",
+      "body": "Off-season. Easts won the 2026 title. The 2027 season starts in April and free-entry fixtures will be added once the draw is released."
+    },
+    {
+      "title": "NPL NSW",
+      "body": "Off-season. The 2026 season finished in September. The 2027 season kicks off around February."
+    },
+    {
+      "title": "Swimming",
+      "body": "Not listed as a current free fixture because spectator entry at the aquatic centre isn’t confirmed for the upcoming meet."
+    }
+  ]
+}

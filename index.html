@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d3a30" />
+  <meta name="description" content="Free Gate helps you find free-entry sport and community events in Sydney." />
+  <title>Free Gate</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icons/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand" aria-label="Free Gate">
+        <span class="brand-mark" aria-hidden="true">$</span>
+        <span>Free Gate</span>
+      </div>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#featured">This week</a>
+        <a href="#notes">Notes</a>
+        <a href="#about">About</a>
+        <a href="#download" class="pill">Add to Home Screen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div class="hero-visual" aria-label="Free sport pricing graphic">
+        <div class="hero-card">
+          <div class="price">$0</div>
+          <div class="price-dash"></div>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <div class="eyebrow">Free sport in Sydney</div>
+        <h1>Free games. Good energy. No ticket drama.</h1>
+        <p class="subtitle">
+          Discover free-entry sports, community fixtures, and live local events with the latest updates from the weekly scan.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#featured" class="button primary">See this week’s list</a>
+          <a href="#about" class="button secondary">How it works</a>
+        </div>
+
+        <div class="stats" aria-label="App summary">
+          <div class="stat">
+            <strong id="stat-count">0</strong>
+            <span>Upcoming</span>
+          </div>
+          <div class="stat">
+            <strong id="stat-kids">0</strong>
+            <span>Kids free</span>
+          </div>
+          <div class="stat">
+            <strong id="stat-updated">–</strong>
+            <span>Updated</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-main">
+      <div class="container">
+        <div class="controls">
+          <label class="search-wrap" aria-label="Search fixtures">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 21L16.65 16.65M18.5 10.75C18.5 15.053 15.053 18.5 10.75 18.5C6.447 18.5 3 15.053 3 10.75C3 6.447 6.447 3 10.75 3C15.053 3 18.5 6.447 18.5 10.75Z" stroke="#32544a" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <input id="search-input" type="search" placeholder="Search by sport, venue, or event name" />
+          </label>
+
+          <div class="filter-row" aria-label="Event filters">
+            <button class="chip active" type="button" data-filter="all">Everything</button>
+            <button class="chip" type="button" data-filter="everyone">Free for adults</button>
+            <button class="chip" type="button" data-filter="kids">Kids free</button>
+            <button class="chip" type="button" data-filter="members">Members free</button>
+          </div>
+        </div>
+
+        <section id="featured" aria-label="Featured fixtures">
+          <div class="section-head">
+            <h2>Featured fixtures</h2>
+            <span id="last-updated" class="status">Loading…</span>
+          </div>
+
+          <div id="event-list" class="cards" aria-live="polite"></div>
+        </section>
+
+        <section id="notes" aria-label="Season notes">
+          <div class="section-head">
+            <h2>Season notes</h2>
+          </div>
+
+          <div class="info-panel">
+            <div class="note-box">
+              <h3>What’s off-season right now</h3>
+              <ul id="notes-list"></ul>
+            </div>
+
+            <div class="mini-box">
+              <h3>Quick snapshot</h3>
+
+              <div class="mini-stat">
+                <div>
+                  <small>Free this week</small>
+                  <strong id="mini-upcoming">0</strong>
+                </div>
+                <span class="tag">Updated</span>
+              </div>
+
+              <div class="mini-stat">
+                <div>
+                  <small>Members free</small>
+                  <strong id="mini-members">0</strong>
+                </div>
+                <span class="tag members">Members</span>
+              </div>
+
+              <div class="mini-stat">
+                <div>
+                  <small>Kids free</small>
+                  <strong id="mini-kids">0</strong>
+                </div>
+                <span class="tag kids">Kids</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" aria-label="About the app">
+          <div class="section-head">
+            <h2>How it works</h2>
+          </div>
+
+          <div class="info-panel">
+            <div class="note-box">
+              <h3>Free Gate keeps it simple</h3>
+              <ul>
+                <li>The site checks live sporting fixtures in Sydney and only lists events that are free to attend.</li>
+                <li>Each listing shows who gets in free: adults, kids, or members.</li>
+                <li>The app is designed to be fast, installable, and easy to check on a phone.</li>
+              </ul>
+            </div>
+
+            <div class="mini-box">
+              <h3>Best for</h3>
+              <ul class="compact-list">
+                <li>Families</li>
+                <li>Community sports fans</li>
+                <li>Casual weekend planners</li>
+                <li>Phone-first browsing</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>Free Gate</div>
+      <div>Updated weekly • Sydney local times</div>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
